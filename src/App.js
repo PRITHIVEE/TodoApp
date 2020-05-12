@@ -20,6 +20,7 @@ function App() {
   const logOut = () => {
     setLoggedIn(false);
     setRetry(false);
+    setTodoList([]);
   }
   return (
       <div className="App">
